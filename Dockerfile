@@ -1,8 +1,7 @@
 FROM gleif/keri:1.0.0
 
 SHELL ["/bin/bash", "-c"]
-EXPOSE 5631
-EXPOSE 5632
+EXPOSE 5600-5700
 
 WORKDIR /keripy
 
